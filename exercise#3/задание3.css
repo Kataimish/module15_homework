@@ -1,0 +1,72 @@
+body {
+  width: 600px;
+  margin: 10px auto;
+  justify-content: center;
+  gap: 5px;
+  font-family: Arial, sans-serif;
+}
+main {
+  display: grid;
+  justify-content: center;
+}
+.button {
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.button_geo {
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+input {
+  width: 300px;
+  font-size: 20px;
+}
+.info-output {
+  width: 500px;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(44, 44, 44);
+}
+.chat-output {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 400px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: solid gray 2px;
+}
+.chat-output > div,
+a {
+  max-width: 80%;
+  padding: 5px 10px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.chat-output .recieved {
+  max-width: 80%;
+  background: aquamarine;
+  color: black;
+  align-self: flex-start;
+}
+.chat-output .sent {
+  max-width: 80%;
+  background: blueviolet;
+  color: rgb(212, 212, 212);
+  align-self: flex-end;
+}
+
+.text-input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
